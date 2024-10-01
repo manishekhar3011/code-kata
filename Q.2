@@ -1,0 +1,34 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        int c = sc.nextInt();
+        int d = sc.nextInt();
+        
+        //..... YOUR CODE STARTS HERE .....
+        
+         // Operation 1: Add the first and second integer, then multiply by the third
+        int result1 = (a + b) * c;
+
+        // Operation 2: Subtract the fourth integer from the second, then divide by the first
+        int result2 = (b - d) / a;
+
+        // Operation 3: Multiply the first integer by the fourth, then add the third
+        int result3 = (a * d) + c;
+
+        // Operation 4: Add all four integers together and divide by two
+        int result4 = (a + b + c + d) / 2;
+
+        // Output the results
+        System.out.println("Result of operation 1: " + result1);
+        System.out.println("Result of operation 2: " + result2);
+        System.out.println("Result of operation 3: " + result3);
+        System.out.println("Result of operation 4: " + result4);
+        
+        
+        //..... YOUR CODE ENDS HERE .....
+    }
+}
